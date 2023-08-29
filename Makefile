@@ -26,7 +26,7 @@ include $(FRAMEWORK_DIR)/moose.mk
 
 ALL_MODULES                 := no
 
-CHEMICAL_REACTIONS          := no
+CHEMICAL_REACTIONS          := yes
 CONTACT                     := no
 ELECTROMAGNETICS            := no
 EXTERNAL_PETSC_SOLVER       := no
@@ -46,7 +46,7 @@ RAY_TRACING                 := no
 REACTOR                     := no
 RDG                         := no
 RICHARDS                    := no
-STOCHASTIC_TOOLS            := no
+STOCHASTIC_TOOLS            := yes
 THERMAL_HYDRAULICS          := no
 TENSOR_MECHANICS            := no
 XFEM                        := no
