@@ -1,0 +1,2920 @@
+go data
+sw tcfe13
+de-sys ni cr
+rej ph *
+res ph fcc_a1, bcc_a2, liquid
+get
+
+app
+mobfe8
+de-sys ni cr
+rej ph *
+res ph fcc_a1, bcc_a2, liquid
+get
+go p-3
+s-c n=1, p=1e5, x(cr)=0.01 t=573 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T573
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T573 
+T573.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=583 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T583
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T583 
+T583.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=593 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T593
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T593 
+T593.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=603 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T603
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T603 
+T603.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=613 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T613
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T613 
+T613.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=623 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T623
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T623 
+T623.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=633 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T633
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T633 
+T633.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=643 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T643
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T643 
+T643.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=653 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T653
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T653 
+T653.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=663 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T663
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T663 
+T663.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=673 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T673
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T673 
+T673.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=683 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T683
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T683 
+T683.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=693 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T693
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T693 
+T693.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=703 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T703
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T703 
+T703.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=713 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T713
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T713 
+T713.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=723 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T723
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T723 
+T723.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=733 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T733
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T733 
+T733.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=743 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T743
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T743 
+T743.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=753 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T753
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T753 
+T753.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=763 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T763
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T763 
+T763.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=773 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T773
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T773 
+T773.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=783 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T783
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T783 
+T783.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=793 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T793
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T793 
+T793.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=803 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T803
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T803 
+T803.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=813 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T813
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T813 
+T813.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=823 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T823
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T823 
+T823.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=833 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T833
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T833 
+T833.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=843 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T843
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T843 
+T843.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=853 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T853
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T853 
+T853.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=863 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T863
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T863 
+T863.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=873 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T873
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T873 
+T873.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=883 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T883
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T883 
+T883.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=893 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T893
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T893 
+T893.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=903 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T903
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T903 
+T903.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=913 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T913
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T913 
+T913.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=923 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T923
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T923 
+T923.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=933 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T933
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T933 
+T933.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=943 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T943
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T943 
+T943.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=953 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T953
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T953 
+T953.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=963 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T963
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T963 
+T963.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=973 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T973
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T973 
+T973.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=983 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T983
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T983 
+T983.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=993 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T993
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T993 
+T993.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1003 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1003
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1003 
+T1003.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1013 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1013
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1013 
+T1013.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1023 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1023
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1023 
+T1023.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1033 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1033
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1033 
+T1033.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1043 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1043
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1043 
+T1043.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1053 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1053
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1053 
+T1053.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1063 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1063
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1063 
+T1063.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1073 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1073
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1073 
+T1073.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1083 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1083
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1083 
+T1083.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1093 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1093
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1093 
+T1093.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1103 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1103
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1103 
+T1103.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1113 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1113
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1113 
+T1113.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1123 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1123
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1123 
+T1123.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1133 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1133
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1133 
+T1133.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1143 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1143
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1143 
+T1143.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1153 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1153
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1153 
+T1153.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1163 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1163
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1163 
+T1163.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1173 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1173
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1173 
+T1173.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1183 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1183
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1183 
+T1183.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1193 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1193
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1193 
+T1193.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1203 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1203
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1203 
+T1203.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1213 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1213
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1213 
+T1213.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1223 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1223
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1223 
+T1223.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1233 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1233
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1233 
+T1233.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1243 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1243
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1243 
+T1243.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1253 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1253
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1253 
+T1253.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1263 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1263
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1263 
+T1263.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1273 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1273
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1273 
+T1273.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1283 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1283
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1283 
+T1283.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1293 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1293
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1293 
+T1293.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1303 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1303
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1303 
+T1303.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1313 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1313
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1313 
+T1313.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1323 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1323
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1323 
+T1323.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1333 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1333
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1333 
+T1333.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1343 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1343
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1343 
+T1343.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1353 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1353
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1353 
+T1353.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1363 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1363
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1363 
+T1363.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1373 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1373
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1373 
+T1373.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1383 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1383
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1383 
+T1383.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1393 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1393
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1393 
+T1393.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1403 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1403
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1403 
+T1403.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1413 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1413
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1413 
+T1413.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1423 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1423
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1423 
+T1423.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1433 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1433
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1433 
+T1433.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1443 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1443
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1443 
+T1443.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1453 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1453
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1453 
+T1453.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1463 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1463
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1463 
+T1463.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1473 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1473
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1473 
+T1473.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1483 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1483
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1483 
+T1483.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1493 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1493
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1493 
+T1493.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1503 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1503
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1503 
+T1503.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1513 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1513
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1513 
+T1513.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1523 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1523
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1523 
+T1523.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1533 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1533
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1533 
+T1533.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1543 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1543
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1543 
+T1543.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1553 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1553
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1553 
+T1553.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1563 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1563
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1563 
+T1563.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1573 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1573
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1573 
+T1573.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1583 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1583
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1583 
+T1583.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1593 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1593
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1593 
+T1593.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1603 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1603
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1603 
+T1603.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1613 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1613
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1613 
+T1613.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1623 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1623
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1623 
+T1623.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1633 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1633
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1633 
+T1633.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1643 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1643
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1643 
+T1643.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1653 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1653
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1653 
+T1653.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1663 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1663
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1663 
+T1663.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1673 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1673
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1673 
+T1673.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1683 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1683
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1683 
+T1683.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1693 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1693
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1693 
+T1693.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1703 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1703
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1703 
+T1703.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1713 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1713
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1713 
+T1713.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1723 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1723
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1723 
+T1723.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1733 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1733
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1733 
+T1733.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1743 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1743
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1743 
+T1743.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1753 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1753
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1753 
+T1753.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1763 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1763
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1763 
+T1763.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1773 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1773
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1773 
+T1773.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1783 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1783
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1783 
+T1783.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1793 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1793
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1793 
+T1793.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1803 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1803
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1803 
+T1803.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1813 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1813
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1813 
+T1813.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1823 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1823
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1823 
+T1823.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1833 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1833
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1833 
+T1833.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1843 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1843
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1843 
+T1843.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1853 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1853
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1853 
+T1853.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1863 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1863
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1863 
+T1863.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1873 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1873
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1873 
+T1873.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1883 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1883
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1883 
+T1883.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1893 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1893
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1893 
+T1893.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1903 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1903
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1903 
+T1903.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1913 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1913
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1913 
+T1913.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1923 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1923
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1923 
+T1923.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1933 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1933
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1933 
+T1933.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1943 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1943
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1943 
+T1943.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1953 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1953
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1953 
+T1953.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1963 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1963
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1963 
+T1963.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1973 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1973
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1973 
+T1973.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1983 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1983
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1983 
+T1983.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=1993 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T1993
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T1993 
+T1993.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2003 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2003
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2003 
+T2003.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2013 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2013
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2013 
+T2013.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2023 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2023
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2023 
+T2023.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2033 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2033
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2033 
+T2033.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2043 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2043
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2043 
+T2043.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2053 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2053
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2053 
+T2053.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2063 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2063
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2063 
+T2063.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2073 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2073
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2073 
+T2073.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2083 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2083
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2083 
+T2083.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2093 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2093
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2093 
+T2093.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2103 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2103
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2103 
+T2103.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2113 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2113
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2113 
+T2113.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2123 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2123
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2123 
+T2123.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2133 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2133
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2133 
+T2133.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2143 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2143
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2143 
+T2143.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2153 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2153
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2153 
+T2153.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2163 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2163
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2163 
+T2163.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2173 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2173
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2173 
+T2173.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2183 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2183
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2183 
+T2183.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2193 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2193
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2193 
+T2193.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2203 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2203
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2203 
+T2203.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2213 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2213
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2213 
+T2213.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2223 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2223
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2223 
+T2223.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2233 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2233
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2233 
+T2233.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2243 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2243
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2243 
+T2243.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2253 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2253
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2253 
+T2253.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2263 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2263
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2263 
+T2263.dat 
+back 
+r-m 
+
+
+s-c n=1, p=1e5, x(cr)=0.01 t=2273 
+c-e 
+s-a-v 1 x(cr) 0 1 0.01 
+step 
+sep 
+post 
+enter table 
+T2273
+x(cr), g(fcc), g(bcc), g(liquid), m(fcc,cr), m(fcc,ni), m(bcc,cr), m(bcc,ni), m(liquid,cr), m(liquid,ni), mu(cr), mu(ni), mur(cr,fcc), mur(ni,fcc), mur(cr,bcc), mur(ni,bcc), mur(cr,liquid), mur(ni,liquid); 
+ 
+tabulate 
+T2273 
+T2273.dat 
+back 
+r-m 
+
